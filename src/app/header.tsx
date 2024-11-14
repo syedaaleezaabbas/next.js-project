@@ -14,9 +14,10 @@ export default function Header() {
             </div>
 
             <nav className="hidden md:block">
-                <ul className="flex gap-x-36 pr-40">
+                <ul className="flex gap-x-24 pr-28">
                     <li><Link href="/" className="text-gray-600 hover:text-teal-600 hover:underline">Home</Link></li>
                     <li><Link href="/about" className="text-gray-600 hover:text-teal-600 hover:underline">About</Link></li>
+                    <li><Link href="/products" className="text-gray-600 hover:text-teal-600 hover:underline">Products</Link></li>
                     <li><Link href="/contact" className="text-gray-600 hover:text-teal-600 hover:underline">Contact</Link></li>
                 </ul>
             </nav>
@@ -30,6 +31,7 @@ export default function Header() {
                         <ul className="flex flex-col text-xl text-center pt-20 space-y-8">
                             <li><Link href="/" className="text-gray-600 hover:text-teal-600 hover:underline">Home</Link></li>
                             <li><Link href="/about" className="text-gray-600 hover:text-teal-600 hover:underline">About</Link></li>
+                            <li><Link href="/products" className="text-gray-600 hover:text-teal-600 hover:underline">Products</Link></li>
                             <li><Link href="/contact" className="text-gray-600 hover:text-teal-600 hover:underline">Contact</Link></li>
                         </ul>
                     </nav>
