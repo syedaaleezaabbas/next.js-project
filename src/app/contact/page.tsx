@@ -7,7 +7,7 @@ const Contact = () => {
     return (
         <div className='py-12'>
             <h2 className='text-3xl md:text-5xl font-bold text-blue-950 text-center mb-4'>Get In Touch With Us</h2>
-            <p className='text-center text-gray-600 mb-20 md:max-w-2xl mx-auto px-4'>Have questions or need assistance with our products and services? Our team is here to help! Feel free to reach out, and we'll provide you with the information you need. Your satisfaction is our priority, and we’re eager to assist in any way we can.</p>
+            <p className='text-center text-gray-600 mb-20 md:max-w-2xl mx-auto px-4'>Have questions or need assistance with our products and services? Our team is here to help! Feel free to reach out, and we will provide you with the information you need. Your satisfaction is our priority, and we are eager to assist in any way we can.</p>
             <div className='flex md:flex-row flex-col max-w-4xl mx-auto space-y-8 md:space-y-0 md:space-x-52'>
 
                 <div className='space-y-8 text-left md:pl-0 pl-6'>
